@@ -8,19 +8,19 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    background-color: #fafaff;
+    background-color: #545454;
     height: 100vh;
 }
 .site-title h1 {
     font-weight: 400;
     font-family: "Lora", sans-serif;
-    color: #121435;
+    color: #001939;
     font-size: 2rem;
     margin: 0;
 }
 .subtitle {
     font-weight: 700;
-    color: #FF5722;
+    color: #FF9406;
     font-size: 0.75rem;
     margin: 0;
     text-transform: capitalize;
@@ -65,13 +65,13 @@ nav li {
 }
   nav a:hover,
   nav a:focus {
-    color: #1e56a0;
+    color: #590b08;
 }
 .current-page {
-    color: #1e56a0;
+    color: #590b08;
 }
 .current-page:hover {
-    color: #1e56a0;
+    color: #590b08;
 }
 @media (max-width: 675px) {
     nav ul {
@@ -147,6 +147,7 @@ nav li {
     background-color: white;
     margin-bottom: 8px;
 }
+
 /* Gallery Section */
 .gallery-header {
     text-align: center;
@@ -156,7 +157,7 @@ nav li {
     text-align: center;
     font-weight: 700;
     font-size: 3.2rem;
-    color: #1e56a0;
+    color: #FF9406;
 }
 @media (max-width: 600px) {
 .gallery-header h1 {
@@ -165,7 +166,7 @@ nav li {
 }
 .gallery-header p {
     font-weight: 600;
-    color: #181b2c;
+    color: white;
 }
 .gallery-row {
     display: -ms-flexbox;
@@ -208,7 +209,7 @@ nav li {
     text-align: center;
     font-weight: 700;
     font-size: 3.2rem;
-    color: #121435;
+    color: #FF9406;
 }
 @media (max-width: 600px) {
     .team h1 {
@@ -242,13 +243,13 @@ nav li {
 .team .column h3 {
     font-weight: 600;
     font-family: "Lora", sans-serif;
-    color: #121435;
+    color: white;
     text-align: center;
     margin-bottom: 3px;
 }
 .team .column p {
     font-weight: 400;
-    color: #181b2c;
+    color: white;
     text-align: center;
 }
 @media (max-width: 800px) {
@@ -283,17 +284,17 @@ nav li {
 .about-header h1 {
     font-weight: 700;
     font-size: 3.2rem;
-    color: #121435;
+    color: #ff9406;
 }
 .about-content p {
-    color: #121435;
+    color: white;
 }
 /* Contact SEction */
 .contact h1 {
     text-align: center;
     font-weight: 700;
     font-size: 3.2rem;
-    color: #121435;
+    color: #ff9406;
 }
 .flex-container {
     display: flex;
@@ -307,11 +308,11 @@ nav li {
 }
 .flex-item-left h4 {
     font-weight: 700;
-    color: #121435;
+    color: #ff9406;
 }
 .flex-item-left p {
     font-weight: 400;
-    color: #121435;
+    color: white;
 }
 .flex-item-right {
     padding: 10px;
@@ -366,8 +367,8 @@ footer {
     margin-top: 20px;
 }
   
-footer h3 > span,
-footer h3 > a {
+footer h6 > span,
+footer h6 > a {
     color: white;
     text-decoration: none;
     font-weight: 500;

@@ -227,6 +227,11 @@ nav li {
     flex-wrap: wrap;
     padding: 0 14px;
 }
+.row {
+    display: flex;
+    justify-content: center;
+
+}
 
 .team .column {
     -ms-flex: 25%;
@@ -378,4 +383,11 @@ footer h6 > a {
 footer p {
 color: white;
 }
+.Redes-Sociais {
+    color: white;
+    font-size: 15px;
+    width: 10px;
+    height: 10px;
+}
+
 

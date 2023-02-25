@@ -359,6 +359,7 @@ textarea {
       flex: 100%;
     }
 }
+
 /* Footer */
 footer {
     padding: 20px;
@@ -374,3 +375,7 @@ footer h6 > a {
     font-weight: 500;
     margin: 0 auto;
 }
+footer p {
+color: white;
+}
+

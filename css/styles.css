@@ -364,6 +364,9 @@ textarea {
       flex: 100%;
     }
 }
+.Redes {
+    text-decoration: none;
+}
 
 /* Footer */
 footer {
@@ -383,11 +386,6 @@ footer h6 > a {
 footer p {
 color: white;
 }
-.Redes-Sociais {
-    color: white;
-    font-size: 15px;
-    width: 10px;
-    height: 10px;
-}
+
 
 
